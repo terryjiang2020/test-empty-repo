@@ -14,6 +14,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.yes {
+  color: green;
+}
+.no {
+  color: red;
+}
+
 #app {
   width: 100%;
   min-height: 100vh;
