@@ -1,0 +1,21 @@
+<template>
+  <div id="app">
+    <router-view />
+  </div>
+</template>
+
+<script setup>
+// App root component
+</script>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+</style>
