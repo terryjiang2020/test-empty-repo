@@ -6,8 +6,6 @@
 
 <script setup>
 // App root component
-// App root component
-// App root component
 </script>
 
 <style>
