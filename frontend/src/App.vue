@@ -16,6 +16,7 @@ body {
 
 .yes {
   color: green;
+  color: green;
 }
 .no {
   color: red;
