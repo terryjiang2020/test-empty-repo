@@ -16,6 +16,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // Add services
 builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IStatsService, StatsService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 // Add JWT Authentication
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
