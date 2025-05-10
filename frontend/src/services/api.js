@@ -73,3 +73,12 @@ export const logout = () => {
   localStorage.removeItem('token');
   return Promise.resolve();
 };
+
+// Task Report API calls
+export const generateTaskReport = async (reportParams) => {
+  return apiClient.post('/api/TaskReport/generate', reportParams);
+};
+
+export const getTaskReport = async (reportId) => {
+  return apiClient.get(`/api/TaskReport/${reportId}`);
+};
