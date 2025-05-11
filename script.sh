@@ -222,7 +222,6 @@ proc handle_prompts {} {
         }
     }
 }
-
 # 运行命令
 spawn claude "do what prompt.txt asks you to do, print your response in response.txt, and print the cost of the session in cost.txt"
 # spawn claude --verbose "Write a unit test for the src/constants.js file"
