@@ -1,0 +1,52 @@
+# Project Context
+
+You are working on a C# ASP.NET Core backend with a Vue.js frontend. The application is a project management system with projects and tasks.
+
+## Current Project Structure
+
+### Backend (ASP.NET Core)
+- Models for Project and Task entities with appropriate properties and relationships
+- DTOs for creating and updating projects
+- Authentication using JWT
+- Services and controllers need to be implemented for the API endpoints
+
+### Frontend (Vue.js)
+- API service with the following endpoints:
+  - `/stats` - Get dashboard statistics
+  - `/projects` - CRUD operations for projects
+  - `/projects/:id` - Get project by ID
+  - `/auth/login` - User authentication
+  - `/auth/register` - User registration
+
+## Your Task
+
+Implement the necessary API controllers and services in the backend to support the frontend API requests. Focus on creating:
+
+1. Project controller with endpoints for:
+   - GET /api/projects - List all projects
+   - GET /api/projects/{id} - Get project by ID
+   - POST /api/projects - Create new project
+   - PUT /api/projects/{id} - Update project
+   - DELETE /api/projects/{id} - Delete project
+
+2. Statistics controller with endpoint for:
+   - GET /api/stats - Return dashboard statistics
+
+3. Auth controller with endpoints for:
+   - POST /api/auth/login - User login
+   - POST /api/auth/register - User registration
+
+Ensure your implementation:
+- Uses the existing models and DTOs
+- Follows RESTful API design principles
+- Handles authentication and authorization
+- Returns appropriate HTTP status codes
+- Follows the existing project structure and conventions
+
+Do not:
+- Add or install any new libraries not already in the project
+- Change any frontend code
+- Modify the database schema
+- Alter existing models unless necessary
+
+Test your endpoints with appropriate status codes and response formats to ensure compatibility with the frontend API service.
