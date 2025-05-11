@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8RrgAeztfwZQWeQ7Eclp2vxMrM19geG2xlGXLb5HVLQSjLiFHsUf0oWyiov9royG6KyWDsZR7i1pK0KUnfCF7g==",
+  "dgSpecHash": "mgUOKOu7gRs=",
   "success": true,
   "projectFilePath": "/Users/jiangjiahao/Documents/GitHub/test-empty-repo/backend/ProjectManager.csproj",
   "expectedPackageFiles": [
@@ -54,9 +54,9 @@
     "/Users/jiangjiahao/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
     "/Users/jiangjiahao/.nuget/packages/system.text.encoding.codepages/4.7.0/system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "/Users/jiangjiahao/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
-    "/Users/jiangjiahao/.nuget/packages/microsoft.netcore.app.ref/6.0.21/microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
-    "/Users/jiangjiahao/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.21/microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
-    "/Users/jiangjiahao/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.21/microsoft.netcore.app.host.osx-arm64.6.0.21.nupkg.sha512"
+    "/Users/jiangjiahao/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/jiangjiahao/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/jiangjiahao/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.36/microsoft.netcore.app.host.osx-arm64.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }
